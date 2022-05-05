@@ -39,19 +39,19 @@
             <form id="survey-form">
               <div class="form-group">
                 <label id="name-label" for="name">Name</label>
-                <input type="text" placeholder="Enter Your Name" class="form-control" id="name">
+                <input type="text" placeholder="Enter Your Name" class="form-control" id="name" required>
               </div>
               <div class="form-group">
                 <label id="email-label" for="email">Email address</label>
-                <input type="email" class="form-control" placeholder="Enter Your Email" id="email" aria-describedby="emailHelp">
+                <input type="email" class="form-control" placeholder="Enter Your Email" id="email" aria-describedby="emailHelp" required>
               </div>
               <div class="form-group">
                 <label id="number-label" for="email">Age</label>
-                <input type="number" class="form-control" placeholder="Enter Your Age" min="10" max="70" id="number" aria-describedby="emailHelp">
+                <input type="number" class="form-control" placeholder="Enter Your Age" min="10" max="70" id="number" aria-describedby="emailHelp" required>
               </div>
               <div class="form-group">
                 <label for="dropdown">Marital Status</label>
-                <select class="form-control" id="dropdown">
+                <select class="form-control" id="dropdown" required>
                   <option>Single</option>
                   <option>Married</option>
                   <option>Divorced</option>
@@ -69,6 +69,16 @@
                   Gender: Female
                 </label>
               </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Description</label>
+                <textarea class="form-control" id="text-area" rows="3"></textarea>
+              </div>
+              <div class="form-group">
+                 <button class="btn btn-primary">submit</button>
+              </div>
+
+
+
             </form>
           </div>
 
