@@ -4,7 +4,7 @@ body {
 }
 .survey-section {
   background-color: rgba(0, 0, 0, 0.5);
-  height: 90vh;
+  height: 100%;
   width: 100%;
   margin-top: 5vh;
   padding: 25px;
